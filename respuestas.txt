@@ -1,4 +1,9 @@
  ¿Qué es rvm (Ruby Version Manager )?
 
-RVM es una herramienta por linea de comandos que nos permite instalar, manejr y trabajar con multiples entornos de los interpretes de ruby de forma sencilla.
+ RVM es una herramienta por linea de comandos que nos permite instalar, manejr y trabajar con multiples entornos de los interpretes de ruby de forma sencilla.
 
+ ¿Cuáales son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete de Ruby (ruby helloWorld.rb) y el intérprete interactivo del ejercicio anterior?
+ 
+ Ninguna, salvo que en uno introducimos directamente la instrucción a ejecutar y la ejecutó inmediatamente, mientras que ahora le pasamos el fichero que contenia nuestro programa (el cual ejecutó).
+ 
+ 
