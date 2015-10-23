@@ -6,4 +6,9 @@
  
  Ninguna, salvo que en uno introducimos directamente la instrucción a ejecutar y la ejecutó inmediatamente, mientras que ahora le pasamos el fichero que contenia nuestro programa (el cual ejecutó).
  
+ ¿Cules son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete interactivo y con pry?
+ 
+ Con el irb nos muestra que está ejecutando (2.1.4 :001 > puts "Hello world"2.1.4 :001 >) y luego el resultado, incluyendo "lo que devuelve" (Hello world   => nil ); mientras que con pry sólo nos muestra
+ el Hello World.
+ 
  
