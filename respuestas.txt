@@ -1,10 +1,35 @@
  ¿Qué es rvm (Ruby Version Manager )?
 
  RVM es una herramienta por linea de comandos que nos permite instalar, manejr y trabajar con multiples entornos de los interpretes de ruby de forma sencilla.
+  
+ ¿Cuál es el resultado de la siguiente operaci´on?
+  
+ 2.1.4 :001 > puts "Hello world"
+ Hello world
+ => nil 
 
- ¿Cuáales son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete de Ruby (ruby helloWorld.rb) y el intérprete interactivo del ejercicio anterior?
+ ¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete de Ruby (ruby helloWorld.rb) y el intérprete interactivo del ejercicio anterior?
  
  Ninguna, salvo que en uno introducimos directamente la instrucción a ejecutar y la ejecutó inmediatamente, mientras que ahora le pasamos el fichero que contenia nuestro programa (el cual ejecutó).
+ 
+ ¿Cuál es el resultado de cada una de las siguientes operaciones?
+ 
+ [1] pry(main)> puts x
+ 10
+ => nil
+ [2] pry(main)> def hello
+ [2] pry(main)*   puts "Hello World"
+ [2] pry(main)* end  
+ => :hello
+ [3] pry(main)> hello
+ Hello World
+ => nil
+ [4] pry(main)> byebye
+ bye bye world!!!
+ => nil
+ [5] pry(main)> x = "changed"
+ => "changed"
+ [6] pry(main)> exit
  
  ¿Cules son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete interactivo y con pry?
  
